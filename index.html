@@ -1,68 +1,132 @@
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-    #ourblog{
-        position:fixed;
-        /*position:absolute;*/
-        top: 0%;
-        left: 0px;
-        width:30%;
-        height:100%;
-    }
-    #ourblogBrief{
-        /*position:absolute;*/
-        font-family:Lobster;
-        font-size: 20px;
-        color:beige;
-        text-align: center;
-    }
-    #title{
-        position:fixed;
-        /*position:absolute;*/
-        top: 0px;
-        left: 0px;
-        z-index: 1;
-    }
-    #content{
-        position:absolute;
-        left: 30%;
-        top: 0%;
-        width:70%;
-        height:100%;
-        /*margin:10px 10px 10px 10px;*/
-        z-index: 2;
-        background-color: white;
-    }
-    .red-text {
-    color:bisque;
-    font-size: 32px;
-    font-family: Lobster,monospace;
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="http://at.alicdn.com/t/font_1521534_koh3z53o5ka.css" rel="stylesheet"/>
+    <style>
+        #ourblog {
+            position: fixed;
+            /*position:absolute;*/
+            top: 0%;
+            left: 0px;
+            width: 30%;
+            height: 100%;
+        }
 
-  }
+        #ourblogBrief {
+            /*position:absolute;*/
+            font-family: Lobster;
+            font-size: 20px;
+            color: beige;
+            text-align: center;
+        }
 
-  .thick-green-border {
-    border-color: silver;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 60%;
-  }
+        #title {
+            position: fixed;
+            /*position:absolute;*/
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
 
-  .smaller-image {
-    width: 100px;
-  }
-</style>
+        #content {
+            position: absolute;
+            left: 30%;
+            top: 0%;
+            width: 70%;
+            height: 100%;
+            /*margin:10px 10px 10px 10px;*/
+            z-index: 2;
+            background-color: white;
+        }
+
+        .red-text {
+            color: bisque;
+            font-size: 32px;
+            font-family: Lobster, monospace;
+
+        }
+
+        .thick-green-border {
+            border-color: silver;
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 60%;
+        }
+
+        .smaller-image {
+            width: 100px;
+        }
+
+        body {
+            background-image: url(https://trello-attachments.s3.amazonaws.com/5dd4f42e5d9b4814b89be2d0/5dd4f42e5d9b4814b89be2fb/1920x1080/cb230823663a2f34ec7296580f8eea7c/cover.jpg);
+
+        }
+
+        a {
+            text-decoration: none;
+            color: bisque;
+        }
+        li {
+            padding: 0.5em;
+        }
+
+        #sidebar-links {
+            padding: 5em;
+        }
+
+        .plain-list {
+            list-style: none;
+        }
+
+
+        .iconfont {
+            font-size: 1rem;
+        }
+
+        .column2 {
+            column-count: 2;
+        }
+    </style>
+</head>
 <body>
-    <div id="title">
-        <img  src="./image/cover.jpg">
-        <div id="ourblog">
-            <div id="ourblogBrief">
-                <h2 class="red-text">OurBlog</h2>                
-                <a href="#"><img class="smaller-image thick-green-border" src="https://upload-images.jianshu.io/upload_images/15168659-a3c3f2b96b600e0a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="一只仰卧着的萌猫"></a>            
-                <p>蚂蚁花甲拉面</p>
-                <p style="font-size:15px;">我们的成员：马铭骏，梅竹，金潓</p>   
-            </div>>          
+<div id="title">
+    <img src="./image/cover.jpg">
+    <div id="ourblog">
+        <div id="ourblogBrief">
+            <h2 class="red-text">OurBlog</h2>
+            <a href="#"><img class="smaller-image thick-green-border"
+                             src="https://upload-images.jianshu.io/upload_images/15168659-a3c3f2b96b600e0a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                             alt="一只仰卧着的萌猫"></a>
+            <p>蚂蚁花甲拉面</p>
+            <p style="font-size:15px;">我们的成员：马铭骏，梅竹，金潓</p>
+        </div>
+        <div id="sidebar-links">
+            <div id="blog-links">
+                <ul class="column2 plain-list web-font">
+                    <li><a class="iconfont icon-home " href="#">Home</a></li>
+                    <li><a class="iconfont icon-star" href="#">Favourite</a></li>
+                    <li><a class="iconfont icon-tags" href="#">Tags</a></li>
+                    <li><a class="iconfont icon-group" href="#">Archive</a></li>
+                    <li><a class="iconfont icon-search" href="#">Search</a></li>
+                    <li><a class="iconfont icon-question-circle" href="#">About</a></li>
+                </ul>
+            </div>
+            <br>
+            <div id="contacts">
+                <ul class="column2 plain-list web-font">
+                    <li><a class="iconfont icon-mail-fill" href="#">E-Mail</a></li>
+                    <li><a class="iconfont icon-QQ" href="#">QQ</a></li>
+                    <li><a class="iconfont icon-weibo" href="#">Weibo</a></li>
+                    <li><a class="iconfont icon-wechat-fill" href="#">Wechat</a></li>
+                    <li><a class="iconfont icon-github-fill" href="#">GitHub</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div id="content">
-            <p>content</p>
-    </div>
+
+</div>
+
+<div id="content">
+    <p>content</p>
+</div>
 </body>
+
