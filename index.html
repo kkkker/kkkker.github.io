@@ -1,6 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
-    body{
-
+    #ourblog{
+        position:fixed;
+        /*position:absolute;*/
+        top: 0%;
+        left: 0px;
+        width:30%;
+        height:100%;
+    }
+    #ourblogBrief{
+        /*position:absolute;*/
+        font-family:Lobster;
+        font-size: 20px;
+        color:beige;
+        text-align: center;
     }
     #title{
         position:fixed;
@@ -11,18 +24,43 @@
     }
     #content{
         position:absolute;
-        left: 20%;
+        left: 30%;
         top: 0%;
-        width:80%;
-        height:1000%;
+        width:70%;
+        height:100%;
         /*margin:10px 10px 10px 10px;*/
         z-index: 2;
         background-color: white;
     }
+    .red-text {
+    color:bisque;
+    font-size: 32px;
+    font-family: Lobster,monospace;
+
+  }
+
+  .thick-green-border {
+    border-color: silver;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 60%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
 </style>
 <body>
     <div id="title">
         <img  src="./image/cover.jpg">
+        <div id="ourblog">
+            <div id="ourblogBrief">
+                <h2 class="red-text">OurBlog</h2>                
+                <a href="#"><img class="smaller-image thick-green-border" src="https://upload-images.jianshu.io/upload_images/15168659-a3c3f2b96b600e0a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="一只仰卧着的萌猫"></a>            
+                <p>蚂蚁花甲拉面</p>
+                <p style="font-size:15px;">我们的成员：马铭骏，梅竹，金潓</p>   
+            </div>>          
+        </div>
     </div>
     <div id="content">
             <p>content</p>
