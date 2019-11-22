@@ -59,33 +59,41 @@
     }
 
 
-    #sidebar-links {
-      padding: 1em 0 0 1em;
+    #sidebar-links-wrap {
+      margin: 1em 0 1em 0;
       text-align: center;
+      align-content: center;
     }
 
-    #sidebar-links li {
+    #sidebar-links-wrap li {
       padding: 0.5em;
     }
 
-    #sidebar-links a {
+    #sidebar-links-wrap a {
       text-decoration: none;
       color: bisque;
     }
 
 
-    #sidebar-links .iconfont {
+    #sidebar-links-wrap .iconfont {
       font-size: 1rem;
       margin-right: 0.5em;
     }
 
-    #sidebar-links ul {
+    #sidebar-links-wrap ul {
       list-style: none;
       display: inline-block;
       vertical-align: top;
       text-align: left;
       padding: 0;
     }
+
+    #sidebar-links {
+      width: 50%;
+      margin: 0 auto;
+      text-align: left;
+    }
+
 
   </style>
   <title>Our Blog</title>
@@ -102,8 +110,8 @@
       <p>蚂蚁花甲拉面</p>
       <p style="font-size:15px;">我们的成员：马铭骏，梅竹，金潓</p>
     </div>
-    <div id="sidebar-links">
-      <div id="blog-links">
+    <div id="sidebar-links-wrap">
+      <div id="sidebar-links">
         <ul>
           <li><a href="#"><i class="iconfont icon-home"></i>
             <span>Home</span></a></li>
@@ -120,8 +128,6 @@
           <li><a href="#"><i class="iconfont icon-question-circle"></i>
             <span>About</span></a></li>
         </ul>
-      </div>
-      <div id="contacts">
         <ul class="column2 plain-list web-font">
           <li><a href="#"><i class="iconfont icon-mail-fill"></i>
             <span>E-Mail</span></a></li>
@@ -137,7 +143,6 @@
       </div>
     </div>
   </div>
-
 </div>
 
 <div id="content">
