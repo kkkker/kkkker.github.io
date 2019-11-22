@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <meta content="text/html" charset=utf-8>
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link href="//at.alicdn.com/t/font_1521534_koh3z53o5ka.css" rel="stylesheet"/>
   <style>
@@ -59,7 +60,8 @@
 
 
     #sidebar-links {
-      padding: 5em;
+      padding: 1em 0 0 1em;
+      text-align: center;
     }
 
     #sidebar-links li {
@@ -72,18 +74,19 @@
     }
 
 
-    #sidebar-links .plain-list {
-      list-style: none;
-    }
-
-
     #sidebar-links .iconfont {
       font-size: 1rem;
+      margin-right: 0.5em;
     }
 
-    #sidebar-links .column2 {
-      column-count: 2;
+    #sidebar-links ul {
+      list-style: none;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      padding: 0;
     }
+
   </style>
   <title>Our Blog</title>
 </head>
@@ -101,23 +104,35 @@
     </div>
     <div id="sidebar-links">
       <div id="blog-links">
-        <ul class="column2 plain-list web-font">
-          <li><a class="iconfont icon-home " href="#">Home</a></li>
-          <li><a class="iconfont icon-star" href="#">Favourite</a></li>
-          <li><a class="iconfont icon-tags" href="#">Tags</a></li>
-          <li><a class="iconfont icon-group" href="#">Archive</a></li>
-          <li><a class="iconfont icon-search" href="#">Search</a></li>
-          <li><a class="iconfont icon-question-circle" href="#">About</a></li>
+        <ul>
+          <li><a href="#"><i class="iconfont icon-home"></i>
+            <span>Home</span></a></li>
+          <li><a href="#"><i class="iconfont icon-tags"></i>
+            <span>Tags</span></a></li>
+          <li><a href="#"><i class="iconfont icon-search"></i>
+            <span>Search</span></a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><i class="iconfont icon-star"></i>
+            <span>Favourite</span></a></li>
+          <li><a href="#"><i class="iconfont icon-group"></i>
+            <span>Archive</span></a></li>
+          <li><a href="#"><i class="iconfont icon-question-circle"></i>
+            <span>About</span></a></li>
         </ul>
       </div>
-      <br>
       <div id="contacts">
         <ul class="column2 plain-list web-font">
-          <li><a class="iconfont icon-mail-fill" href="#">E-Mail</a></li>
-          <li><a class="iconfont icon-QQ" href="#">QQ</a></li>
-          <li><a class="iconfont icon-weibo" href="#">Weibo</a></li>
-          <li><a class="iconfont icon-wechat-fill" href="#">Wechat</a></li>
-          <li><a class="iconfont icon-github-fill" href="#">GitHub</a></li>
+          <li><a href="#"><i class="iconfont icon-mail-fill"></i>
+            <span>E-Mail</span></a></li>
+          <li><a href="#"><i class="iconfont icon-wechat-fill"></i>
+            <span>Wechat</span></a></li>
+        </ul>
+        <ul class="column2 plain-list web-font">
+          <li><a href="#"><i class="iconfont icon-weibo"></i>
+            <span>Weibo</span></a></li>
+          <li><a href="#"><i class="iconfont icon-github-fill"></i>
+            <span>GitHub</span></a></li>
         </ul>
       </div>
     </div>
