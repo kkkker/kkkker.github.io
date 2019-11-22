@@ -170,13 +170,13 @@
     color: salmon;
 }
 
-.header-artical-link {
+.header-article-link {
     text-decoration: none;
     color: cornflowerblue;
 }
 
 /*<<<<<----- Styles for article list ENDS here */
-#header-artical {
+#header-article {
     padding-left: 40px;
     padding-right: 40px;
     margin: 0 auto;
