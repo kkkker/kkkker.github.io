@@ -58,7 +58,7 @@
       width: 100px;
     }
 
-
+    /*Styles for sidebar STARTS here ----->>>>>*/
     #sidebar-links-wrap {
       margin: 1em 0 1em 0;
       text-align: center;
@@ -93,6 +93,77 @@
       text-align: left;
     }
 
+    /*<<<<<----- Styles for sidebar ENDS here */
+
+    /*Styles for article list STARTS here ----->>>>>*/
+    #article-list-section a {
+      text-decoration: none;
+    }
+
+    #article-list {
+      list-style: none;
+    }
+
+    #article-list li {
+      display: inline-block;
+      width: 95%;
+    }
+
+    .article-entry {
+      padding-bottom: 1em;
+      border-bottom: 1px solid lightsalmon;
+    }
+
+    .cover-block {
+      display: inline-block;
+      text-align: center;
+      width: 20%;
+    }
+
+    .cover-img {
+      font-size: 2em;
+      color: salmon;
+      width: 80%;
+      height: 80%;
+    }
+
+
+    .preview-block {
+      display: inline-block;
+      width: 75%;
+    }
+
+    .article-title {
+      color: brown;
+      font-family: "Cambria", "Georgia", serif;
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+
+
+    .dateloc {
+      color: silver;
+      font-family: "Cambria", "Georgia", serif;
+      font-size: 1em;
+      margin-top: 0;
+    }
+
+
+    .preview {
+      color: #666666;
+      font-family: "Calibri", "Arial", sans-serif;
+      font-size: 1.2em;
+
+    }
+
+    .article-link {
+      text-decoration: none;
+      font-family: "Cambria", "Georgia", serif;
+      font-style: italic;
+      color: salmon;
+    }
+
+    /*<<<<<----- Styles for article list ENDS here */
     #header-artical {
       padding-left: 100px;
       padding-right: 100px;
@@ -162,9 +233,60 @@
     <p>This is our first aritical.Our main content is pppppppppppppppppppppppppppppppp
     </p>
     <a href="http://freecatphotoapp.com">Continue reading</a>
-    <div id="header-image"> 
+    <div id="header-image">
       <img src="./image/artical-header.jpg" alt="头条文章背景图" width="100%" height="250px">
     </div>
+  </div>
+  <!--  Article list section-->
+  <div id="article-list-section">
+    <ul id="article-list">
+      <li>
+        <div class="article-entry">
+          <div class="cover-block">
+            <a href="./page/Article00.html"><img class="cover-img" src="./image/article-coversA.jpg"
+                                                 alt="Cover for Article A Missing"></a>
+          </div>
+          <div class="preview-block">
+            <a href="./page/Article00.html"><h2 class="article-title">Article A</h2></a>
+            <p class="dateloc">Date DA and Location LA</p>
+            <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. </p>
+            <a href="./page/Article00.html" class="article-link">Continue Reading</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="article-entry">
+          <div class="cover-block">
+            <a href="./page/Article00.html"> <img class="cover-img" src="./image/article-coverB.jpg"
+                                                  alt="Cover for Article B"></a>
+          </div>
+
+          <div class="preview-block">
+            <a href="./page/Article00.html"><h2 class="article-title">Article B</h2></a>
+            <p class="dateloc">Date DB and Location LB</p>
+            <p class="preview">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. </p>
+            <a href="./page/Article00.html" class="article-link">Continue Reading</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="article-entry">
+          <div class="cover-block">
+            <a href="./page/Article00.html"><img class="cover-img" src="./image/article-coverC.jpg"
+                                                 alt="Cover for Article C"></a>
+          </div>
+          <div class="preview-block">
+            <a href="./page/Article00.html"><h2 class="article-title">Article C</h2></a>
+            <p class="dateloc">Date DC and Location LC</p>
+            <p class="preview">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. </p>
+            <a href="./page/Article00.html" class="article-link">Continue Reading</a>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 </body>
