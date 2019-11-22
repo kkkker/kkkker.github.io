@@ -1,15 +1,15 @@
 #ourblog {
     position: fixed;
     /*position:absolute;*/
-    top: 0%;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 30%;
     height: 100%;
 }
 
 #ourblog-brief {
     /*position:absolute;*/
-    font-family: Lobster;
+    font-family: Lobster, serif;
     font-size: 20px;
     color: beige;
     text-align: center;
@@ -18,15 +18,15 @@
 #title {
     position: fixed;
     /*position:absolute;*/
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
 
 #content {
     position: absolute;
     left: 30%;
-    top: 0%;
+    top: 0;
     width: 70%;
     height: 100%;
     /*margin:10px 10px 10px 10px;*/
