@@ -3,8 +3,9 @@
     /*position:absolute;*/
     top: 0;
     left: 0;
-    width: 30%;
+    width: 360px;
     height: 100%;
+    margin: 0 1em 0 0;
 }
 
 #ourblog-brief {
@@ -25,9 +26,9 @@
 
 #content {
     position: absolute;
-    left: 30%;
+    left: 360px;
     top: 0;
-    width: 70%;
+    width: auto;
     height: 100%;
     /*margin:10px 10px 10px 10px;*/
     z-index: 2;
@@ -70,7 +71,8 @@
 
 
 #sidebar-links-wrap .iconfont {
-    font-size: 1rem;
+    font-family: "Arial", sans-serif;
+    font-size: 2em;
     margin-right: 0.5em;
 }
 
