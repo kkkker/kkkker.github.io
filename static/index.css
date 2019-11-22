@@ -1,0 +1,187 @@
+#ourblog {
+    position: fixed;
+    /*position:absolute;*/
+    top: 0%;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+}
+
+#ourblog-brief {
+    /*position:absolute;*/
+    font-family: Lobster;
+    font-size: 20px;
+    color: beige;
+    text-align: center;
+}
+
+#title {
+    position: fixed;
+    /*position:absolute;*/
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#content {
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    width: 70%;
+    height: 100%;
+    /*margin:10px 10px 10px 10px;*/
+    z-index: 2;
+    background-color: white;
+}
+
+.red-text {
+    color: bisque;
+    font-size: 32px;
+    font-family: Lobster, monospace;
+
+}
+
+.thick-green-border {
+    border-color: silver;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 60%;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+/*Styles for sidebar STARTS here ----->>>>>*/
+#sidebar-links-wrap {
+    margin: 1em 0 1em 0;
+    text-align: center;
+    align-content: center;
+}
+
+#sidebar-links-wrap li {
+    padding: 0.5em;
+}
+
+#sidebar-links-wrap a {
+    text-decoration: none;
+    color: bisque;
+}
+
+
+#sidebar-links-wrap .iconfont {
+    font-size: 1rem;
+    margin-right: 0.5em;
+}
+
+#sidebar-links-wrap ul {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0;
+}
+
+#sidebar-links {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*<<<<<----- Styles for sidebar ENDS here */
+
+/*Styles for article list STARTS here ----->>>>>*/
+#article-list-section {
+    background-color: white;
+    border-color: white;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+}
+
+#article-list-section a {
+    text-decoration: none;
+
+}
+
+#article-list {
+    list-style: none;
+}
+
+#article-list li {
+    display: inline-block;
+    width: 95%;
+}
+
+.article-entry {
+    padding-bottom: 1em;
+    border-bottom: 1px solid lightsalmon;
+}
+
+.cover-block {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.cover-img {
+    font-size: 2em;
+    color: salmon;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+.preview-block {
+    display: inline-block;
+    width: 75%;
+}
+
+.article-title {
+    color: brown;
+    font-family: "Cambria", "Georgia", serif;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+
+.dateloc {
+    color: silver;
+    font-family: "Cambria", "Georgia", serif;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+
+.preview {
+    color: #666666;
+    font-family: "Calibri", "Arial", sans-serif;
+    font-size: 1.2em;
+
+}
+
+.article-link {
+    text-decoration: none;
+    font-family: "Cambria", "Georgia", serif;
+    font-style: italic;
+    color: salmon;
+}
+
+.header-artical-link {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/*<<<<<----- Styles for article list ENDS here */
+#header-artical {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+
+.date-style {
+    color: cadetblue;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
