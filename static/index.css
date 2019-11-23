@@ -10,10 +10,11 @@
 
 #ourblog-brief {
     /*position:absolute;*/
-    font-family: Lobster, serif;
-    font-size: 20px;
-    color: beige;
+    font-family: Lobster, "楷体", serif;
+    font-size: 3em;
+    color: brown;
     text-align: center;
+    margin: 2em auto;
 }
 
 #title {
@@ -36,7 +37,7 @@
 }
 
 .red-text {
-    color: bisque;
+    color: saddlebrown;
     font-size: 32px;
     font-family: Lobster, monospace;
 
@@ -55,18 +56,19 @@
 
 /*Styles for sidebar STARTS here ----->>>>>*/
 #sidebar-links-wrap {
-    margin: 1em 0 1em 0;
+    margin: 10em 0 1em 0;
     text-align: center;
     align-content: center;
 }
 
 #sidebar-links-wrap li {
     padding: 0.5em;
+    font-family: "Cambria", "Georgia", serif;
 }
 
 #sidebar-links-wrap a {
     text-decoration: none;
-    color: bisque;
+    color: papayawhip;
 }
 
 
@@ -85,8 +87,7 @@
 }
 
 #sidebar-links {
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
 }
 
 /*<<<<<----- Styles for sidebar ENDS here */
@@ -189,6 +190,6 @@
 }
 
 .header-image {
-    width: 100%; 
+    width: 100%;
     height: 250px;
 }
