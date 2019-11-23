@@ -6,13 +6,16 @@
 
     #sidebar {
         /*position: fixed;*/
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 60px;
         height: 100%;
         margin: 0 1em 0 0;
         text-align: center;
+        background-image: url("../image/background-filter.jpg");
+        background-clip: border-box;
+        background-size: cover;
     }
 
     #sidebar-brief h2 {
@@ -26,10 +29,11 @@
 
     #sidebar-brief {
         font-size: 0;
+        margin: 1em auto;
     }
 
     #sidebar-links {
-        margin: 10em 0 1em 0;
+        margin: 3em 0 1em 0;
         text-align: center;
         align-content: center;
     }
