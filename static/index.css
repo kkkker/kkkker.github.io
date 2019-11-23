@@ -15,23 +15,6 @@
     max-width: 1000px;
 }
 
-.red-text {
-    color: #8b4513;
-    font-size: 32px;
-    font-family: Lobster, monospace;
-}
-
-.thick-green-border {
-    border-color: #c0c0c0;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 60%;
-}
-
-.smaller-image {
-    width: 100px;
-}
-
 
 /*Styles for sidebar STARTS here ----->>>>>*/
 #sidebar {
@@ -44,12 +27,47 @@
     margin: 0 1em 0 0;
 }
 
+
+#sidebar {
+    /*position: fixed;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 100%;
+    margin: 0 1em 0 0;
+}
+
+#sidebar-logo {
+    width: 100px;
+    border-color: #c0c0c0;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 60%;
+}
+
 #sidebar-brief {
-    font-family: Lobster, "楷体", serif;
-    font-size: 3em;
-    color: rgb(166, 41, 41);
     text-align: center;
     margin: 2em auto;
+}
+
+#sidebar-brief h2 {
+    font-family: Lobster, monospace;
+    font-size: 32px;
+    color: #8b4513;
+}
+
+#sidebar-brief h3 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 3em;
+    color: rgb(166, 41, 41);
+
+}
+
+#sidebar-brief p {
+    font-family: serif;
+    font-size: 1.2em;
+    color: rgb(166, 41, 41);
 }
 
 #sidebar-links {

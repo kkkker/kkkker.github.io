@@ -1,0 +1,68 @@
+@media (max-width: 800px) {
+    .float-column {
+        margin: 0 20px;
+        max-width: 700px;
+    }
+
+    #sidebar {
+        /*position: fixed;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 100%;
+        margin: 0 1em 0 0;
+        text-align: center;
+    }
+
+    #sidebar-brief h2 {
+        font-size: 0;
+    }
+
+    #sidebar-logo {
+        margin-top: 100px;
+        width: 50px;
+    }
+
+    #sidebar-brief {
+        font-size: 0;
+    }
+
+    #sidebar-links {
+        margin: 10em 0 1em 0;
+        text-align: center;
+        align-content: center;
+    }
+
+    #sidebar-links li {
+        padding: 0.5em;
+        font-family: "Cambria", "Georgia", serif;
+    }
+
+    #sidebar-links a {
+        text-decoration: none;
+        color: #ffefd5;
+    }
+
+
+    #sidebar-links .iconfont {
+        font-family: "Arial", sans-serif;
+        font-size: 2em;
+        margin-right: 0.5em;
+    }
+
+    #sidebar-links span {
+        font-size: 0;
+    }
+
+    #contents {
+        position: absolute;
+        left: 60px;
+        top: 0;
+        width: auto;
+        max-width: 1560px;
+        height: 100%;
+        z-index: 2;
+        background-color: #ffffff;
+    }
+}
