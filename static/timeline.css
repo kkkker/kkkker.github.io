@@ -1,0 +1,107 @@
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(17, 19, 41);
+}
+
+.content-timeline {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+.content-timeline-before {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+    font-size: 2em;
+    color: rgb(41, 217, 255);
+}
+
+.content-timeline-after {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+    font-size: 2em;
+    color: rgb(41, 217, 255);
+}
+
+.content-timeline-article {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    color: rgb(41, 217, 255);
+    text-align: center;
+}
+
+.content-timeline-article:before {
+    content: "";
+    text-align: center;
+    width: 10%;
+    height: 2px;
+    background: rgb(41, 217, 255);
+    display: block;
+    margin: auto;
+}
+
+.content-timeline-article:after {
+    content: "2019";
+    text-align: center;
+    width: 10%;
+    height: 2px;
+    background: rgb(41, 217, 255);
+    display: block;
+    margin: auto;
+}
+
+.content-timeline-article-left {
+    top: 0;
+    left: 0;
+    width: 45%;
+    text-align: right;
+}
+
+.content-timeline-article-left:after {
+    position: absolute;
+    content: ""; 
+    top: 9%;
+    left: 49%;
+    width: 1ex;
+    height: 1ex;
+    border:4px solid rgb(41, 217, 255);
+    background-color:rgb(17, 19, 41);
+    border-radius:100%;
+    z-index: 2;
+}
+
+.content-timeline-article-right {
+    position: relative;
+    top: -9.5ex;
+    left: 50%;
+    width: 50%;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.date {
+    background-image: linear-gradient(to right, rgb(63, 217, 252), rgb(16, 99, 210));
+    background-clip: text;
+    color: transparent;
+}
