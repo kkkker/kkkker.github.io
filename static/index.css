@@ -26,6 +26,7 @@
     margin: 0 1em 0 0;
     background-image: url("../image/background-filter.jpg");
     background-clip: border-box;
+    background-size: cover;
 }
 
 #sidebar-logo {
