@@ -47,10 +47,10 @@
 }
 
 .article {
-    position: absolute;
+    position: relative;
     text-align: left;
     top: 5%;
-    left: 20%;
+    margin: 0 auto;
     width: 60%;
     height: 100%;
     background-color: white;
