@@ -38,7 +38,7 @@
     height: 100%;
 }
 
-#artical {
+.article {
     position: absolute;
     text-align: left;
     top: 5%;
@@ -48,19 +48,28 @@
     background-color: white;
 }
 
-#artical-message {
+.article-content {
     font-family: Lobster, serif;
     font-size: 20px;
     color: black;
 }
 
-#date {
+.article-date {
     position: relative;
     bottom: 1em;
     font-size: 1em;
     color: #515151;
 }
-
+.article-footer {
+    margin-top: 2em;
+}
+.article-footer  a{
+    text-decoration: none;
+    font-family: Lobster, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #fa8072;
+}
 #head-icon {
     border-color: white;
     border-radius: 50%;
@@ -72,7 +81,7 @@ h1 {
 
 h3 {
     position: relative;
-    bottom: 10px;
+    margin: 0;
 }
 
 h6 {
@@ -83,3 +92,4 @@ h6 {
 .icon {
     height: 100%;
 }
+
