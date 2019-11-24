@@ -122,10 +122,9 @@
 }
 
 .headline {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
+    margin: auto 40px;
     border-bottom: 3px solid #ffa07a;
+
 }
 
 .headline h2 {
