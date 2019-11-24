@@ -4,7 +4,7 @@
         max-width: 700px;
     }
 
-    #sidebar {
+    .sidebar {
         /*position: fixed;*/
         position: fixed;
         top: 0;
