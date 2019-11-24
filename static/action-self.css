@@ -1,0 +1,83 @@
+         .backgro {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-image: url("./image/background.jpg");
+            background-clip: border-box;
+
+           }
+
+          .backgro::after {
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: inherit;
+            filter: blur(10px);
+            z-index: 1;
+           }
+
+          .content {
+            position: relative;
+            display: block;
+            background: rgb(247, 247, 234);
+            width: 400px;
+            margin: 10px auto;
+            padding: 20px;
+            text-align: center;  
+            border-radius: 10px;
+            animation: moving 3s ease;
+            animation-fill-mode: forwards;
+            box-shadow: 0 0 10px 6px rgba(0,0,0,.5);
+            z-index: 20;
+           }
+
+           @keyframes moving {
+               0% {top: 0%;}
+               100% {top: 25%;}
+            }
+     
+          .content-closebutten {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-left: 90%;
+            color:rgb(161, 159, 159);
+          }
+
+          .content-portrait {
+            border-color: rgb(247, 247, 234);
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 50%;
+            width: 100px;
+    
+          }
+
+          .content-text {
+            font-size: 15px;
+            line-height: 3px;
+            color: rgb(161, 159, 159);
+          }
+
+          .content-icon {
+            text-align: center;
+            align-content: center;
+          }
+
+          .content-icon-left {
+            display: inline-block;
+            padding: 0 10%;
+            color: rgb(161, 159, 159);
+          }
+
+          .content-icon-right {
+            display: inline-block;
+            padding: 0 5%;
+            color: rgb(161, 159, 159);
+          }

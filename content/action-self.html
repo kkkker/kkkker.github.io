@@ -3,67 +3,34 @@
   <head>
       <meta content="text/html" charset=utf-8>
       <link href="//at.alicdn.com/t/font_1521534_koh3z53o5ka.css" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-      <style>
-          .backgro {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("../image/background-filter.jpg");
-            background-clip: border-box;
-
-           }
-          .content {
-            position: absolute;
-            background: beige;
-            width: 30%;
-            height: 40%;
-            margin-left: 35%;
-            margin-right: 35%;
-            margin-bottom: 15%;
-            text-align: center;  
-            animation: moving 3s ease;
-            animation-fill-mode: forwards;
-           }
-           @keyframes moving {
-               0% {top: 0%;}
-               100% {top: 25%;}
-            }
-     
-  
-          .content-portrait {
-             border-color: #c0c0c0;
-             border-width: 1px;
-             border-style: solid;
-             border-radius: 50%;
-             width: 100px;
-           }
-          }
-          .content-text {
-              font-family: monospace;
-              font-size: 15px;
-              color: cadetblue;
-          }
-          .content-link {
-              /* */
-          }
-      </style>
+      <link href="./iconfont.css" rel="stylesheet"  type="text/css">
+      <link href="./static/action-self.css" rel="stylesheet"/>
   </head>
   <body>
       <div class="backgro">
           <div class="content">
-              <div>
-                 <img class="content-portrait" src="../image/team-logo.png" alt="portrait">
+              <div class="content-closebutten">
+                 <i class="iconfont icon-cross-fill"></i>
               </div>
+              <div>
+                 <a href="https://kkkker.github.io/">
+                    <img class="content-portrait" src="./image/team-logo.png" alt="portrait">
+                 </a>
+              </div>
+              <h2>ACR</h2>
               <div class="content-text">
-                  <h3>ACR</h3>
                   <p>I write code to enrich and ease life of others</p>
                   <p>I also ride on two wheels</p>
               </div>
-              <div class="content-link">
-
+              <div class="content-icon">
+                  <div class="content-icon-left">
+                      <i class="iconfont icon-zhiye"></i>
+                      <p>coder</p>
+                  </div>
+                  <div class="content-icon-right">
+                      <i class="iconfont icon-position"></i>
+                      <p>TianFu Software Park</p>
+                  </div>
               </div>
           </div>
       </div>

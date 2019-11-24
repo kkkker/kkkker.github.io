@@ -1,0 +1,37 @@
+{
+  "id": "1526073",
+  "name": "task-TW",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "540337",
+      "name": "center_ic_job",
+      "font_class": "centericjob",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1375430",
+      "name": "position",
+      "font_class": "position",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7516913",
+      "name": "职业",
+      "font_class": "zhiye",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9512529",
+      "name": "叉",
+      "font_class": "cross-fill",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}
