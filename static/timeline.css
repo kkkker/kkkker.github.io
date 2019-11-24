@@ -96,12 +96,11 @@ h1 {
     z-index: 1;
 }
 
-#article-date {
-    background-image: linear-gradient(to right, rgb(252, 164, 63), rgb(248, 28, 28));
-    background-clip: text;
+.article-date {
+    background-image: linear-gradient(to right, rgb(139, 224, 245), rgb(20, 1, 88));
+    -webkit-background-clip: text;
     color: transparent;
 }
-
 
 ul {
     list-style-type: none;
