@@ -11,9 +11,9 @@
         left: 0;
         width: 60px;
         height: 100%;
-        margin: 0 1em 0 0;
+        /*margin: 0 0 0 0;*/
         text-align: center;
-        background-image: url("../image/background-filter.jpg");
+        /*background-image: url("../image/background-filter.jpg");*/
         background-clip: border-box;
         background-size: cover;
     }
