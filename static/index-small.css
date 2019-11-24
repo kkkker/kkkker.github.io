@@ -5,17 +5,26 @@
     }
 
     .sidebar {
-        /*position: fixed;*/
         position: fixed;
         top: 0;
         left: 0;
         width: 60px;
         height: 100%;
-        /*margin: 0 0 0 0;*/
         text-align: center;
-        /*background-image: url("../image/background-filter.jpg");*/
         background-clip: border-box;
         background-size: cover;
+    }
+
+    .sidebar::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 100%;
+        background: inherit;
+        filter: blur(10px);
+        z-index: -1;
     }
 
     #sidebar-brief h2 {
