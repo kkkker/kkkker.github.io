@@ -127,7 +127,12 @@
 
 }
 
+.headline a {
+    text-decoration: none;
+}
+
 .headline h2 {
+
     color: #a52a2a;
     font-family: "Cambria", "Georgia", serif;
     font-size: 2em;
@@ -144,7 +149,7 @@
 
 .headline-preview {
     color: #666666;
-    font-family:'Noto Sans SC', "Calibri", "Arial", sans-serif;
+    font-family: 'Noto Sans SC', "Calibri", "Arial", sans-serif;
     font-size: 1.2em;
 }
 
@@ -177,11 +182,12 @@
 
 #article-list {
     list-style: none;
+    padding: 0 40px;
 }
 
 #article-list li {
     display: inline-block;
-    width: 95%;
+    width: 100%;
 }
 
 .article-entry {
@@ -228,7 +234,7 @@
 
 .article-preview {
     color: #666666;
-    font-family:'Noto Sans SC', "Calibri", "Arial", sans-serif;
+    font-family: 'Noto Sans SC', "Calibri", "Arial", sans-serif;
     font-size: 1em;
 
 }
