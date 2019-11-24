@@ -144,7 +144,7 @@
 
 .headline-preview {
     color: #666666;
-    font-family: "Calibri", "Arial", sans-serif;
+    font-family:'Noto Sans SC', "Calibri", "Arial", sans-serif;
     font-size: 1.2em;
 }
 
@@ -229,7 +229,7 @@
 .article-preview {
     color: #666666;
     font-family:'Noto Sans SC', "Calibri", "Arial", sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
 
 }
 
