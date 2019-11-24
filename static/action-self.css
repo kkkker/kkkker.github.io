@@ -46,12 +46,17 @@
     }
 }
 
-.content-closebutton {
+.content-close {
     position: absolute;
     width: 15px;
     height: 15px;
     margin-left: 90%;
     color: rgb(161, 159, 159);
+}
+
+.content-close a {
+    color: rgb(161, 159, 159);
+    text-decoration: none;
 }
 
 .content-portrait {
@@ -86,6 +91,7 @@
     padding: 0 5%;
     color: rgb(161, 159, 159);
 }
- .iconfont {
-     font-size: 1em;
- }
+
+.iconfont {
+    font-size: 1em;
+}
