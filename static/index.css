@@ -1,4 +1,4 @@
-#main {
+﻿#main {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,17 +16,30 @@
 
 
 /*Styles for sidebar STARTS here ----->>>>>*/
-#sidebar {
+.sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 360px;
     height: 100%;
     margin: 0 1em 0 0;
-    background-image: url("../image/background-filter.jpg");
+    background-image: url("../image/background.jpg");
     background-clip: border-box;
     background-size: cover;
 }
+
+.sidebar::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    filter: blur(10px);
+    z-index: -1;
+}
+
 
 #sidebar-logo {
     width: 100px;
