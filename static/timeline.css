@@ -3,11 +3,11 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    font-family: 'Droid Sans', sans-serif;
     color: rgb(41, 217, 255);
 }
 
 h1 {
+    font-family: Lobster, monospace;
     font-size: 32px;
 }
 
@@ -39,12 +39,16 @@ h1 {
     width: 100%;
 }
 
+.content a {
+    text-decoration: none;
+}
+
 .content:before {
     content: "";
     position: absolute;
     top: 0;
     left: 50%;
-    bottom: 0px;
+    bottom: 0;
     transform: translateX(-50%);
     width: 4px;
     background-color: rgb(41, 217, 255);
@@ -68,6 +72,11 @@ h1 {
     text-align: right;
 }
 
+.content-article-title p {
+    font-family: Lobster, monospace;
+    font-size: 2em;
+}
+
 .content-article-detail {
     width: 48%;
     float: left;
@@ -76,18 +85,30 @@ h1 {
     text-align: right;
 }
 
+.content-article-detail p {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.5em;
+}
+
 .content-article-date {
     position: relative;
+    left: calc(1% - 2px);
     bottom: 18ex;
     width: 48%;
     float: right;
     padding: 20px;
     text-align: left;
 }
+
+.content-article-date p {
+    font-family: "Cambria", "Georgia", serif;
+    font-size: 1.5em;
+}
+
 .content-article-date-flag {
     position: relative;
     top: 4ex;
-    right: 3ex;
+    right: calc(6.5% - 16px);
     width: 8px;
     height: 8px;
     border: 4px solid rgb(41, 217, 255);
@@ -100,6 +121,7 @@ h1 {
     background-image: linear-gradient(to right, rgb(139, 224, 245), rgb(20, 1, 88));
     -webkit-background-clip: text;
     color: transparent;
+
 }
 
 ul {
